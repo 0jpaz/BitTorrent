@@ -15,7 +15,7 @@ funtion numberOfPackets(fileSize) {
 function buildTorrentPacketArray(numOfPackets){
     let list=[];
     let length
-    for(let i=0; i<length; i++){
+    for(let i=0; i<list.length; i++){
         list [i]=1
     }
     return list; 
