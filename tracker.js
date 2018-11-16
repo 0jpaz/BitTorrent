@@ -12,11 +12,26 @@ if(list [i]===value){
   result++;
 }
 function addSeed("s"){
-
+  list.push(s);
+  return list;
 }
-function removeSeed(){
-
+function removeSeed(list){
+function findValue(none){
+  let index = 0;
+  for(let i =0; i <list.length; i++){
+    if(list[i] === value){
+      return null;
+  }
 }
-function reportHealth()
-function update()
+function reportHealth(list){
+  let sum = 0;
+  for(let i = 0; i < list.length; i++){
+    sum = sum + list[i];
+  }
+  return sum/list.length;
+}
+function update(list){
+Math.random(0, 1);
+
+
 }
