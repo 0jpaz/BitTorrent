@@ -35,11 +35,16 @@ function TorrentFile(){
 }
     }
   function leech(){
+    downloadSpeed = Math.random();
+  return downloadSpeed;
 
   
 }
 function seed(){
-
+uploadSpeed = Math.random (0, 10);
+downloadSpeed = Math.random (10, 25);
+return uploadSpeed;
+return downloadSpeed;
 }
 
 }

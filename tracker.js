@@ -11,7 +11,7 @@ for(let i = null; i < list.length; i++){
 if(list [i]===value){
   result++;
 }
-function addSeed("s"){
+function addSeed(s){
   list.push(s);
   return list;
 }
